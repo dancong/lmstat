@@ -12,5 +12,3 @@ Result sample:
 2.58M	/Users/dancong/dev/YourApp/B.framework/B
 
 2.01M	/Users/dancong/dev/YourApp/C.framework/C
-
-0.01M	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.2.sdk/usr/lib/libSystem.dylib
