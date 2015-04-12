@@ -1,5 +1,5 @@
 # lmstat
-A command line tool analyzing iOS app LinkMap file and find out which lib makes your app so fat.
+A Swift command line tool analyzing iOS app LinkMap file and find out which lib makes your app so fat.
 
 Follow the steps in http://blog.cnbang.net/tech/2296/ to locate LinkMap file.
 
