@@ -9,7 +9,7 @@
 import Foundation
 
 if C_ARGC != 3 {
-    println("lmstat is a utility analyzing iOS LinkMap file.\nUsage: lmstat <LinkMap-file-path> <result-file-path>")
+    println("lmstat is a command line tool analyzing iOS LinkMap file.\nUsage: lmstat <LinkMap-file-path> <result-file-path>")
     exit(0)
 }
 
@@ -88,7 +88,7 @@ if let content = String(contentsOfFile:srcPath!, encoding:NSUTF8StringEncoding, 
     }
     
     finalSort.writeToFile(destPath!, atomically: false, encoding: NSUTF8StringEncoding, error: nil);
-    println("Statistics complete")
+    println("Statistics complete, see result in \(destPath!)")
 } else {
     println(error)
 }
